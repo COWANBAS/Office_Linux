@@ -41,3 +41,19 @@ Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na 
 Exporte os prefixos 32 bits no terminal com:
 
 - *export WINEPREFIX=~/.wine32*
+
+Instale todas as depedencias necessarias:
+
+- *winetricks vcrun2015*
+- *winetricks corefonts*
+- *winetricks dotnet48*
+- *winetricks mfc42*
+- *winetricks riched20*
+- *winetricks msxml6*
+- *winetricks usp10*
+
+  Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instaladas rodando o comando:
+  
+  - *wine32 winecfg*
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad6b4bf2-880c-4ede-87df-7bc7b76b98c0" />
