@@ -22,7 +22,7 @@ Depois de rodar esse comando instalaremos o Winetricks para rodar a instalação
 
 - *sudo apt install winetricks*
 
-Apos baixar vamos configurar o prefix do wine 32 bits no linux para isso instale os arquivos msi da Gecko nesse link: https://gitlab.winehq.org/wine/wine/-/wikis/Gecko e os coloque na pasta ~/.cache/wine.
+Apos baixar vamos configurar o prefix do wine 32 bits no linux para isso instale os arquivos msi da Gecko nesse link: https://gitlab.winehq.org/wine/wine/-/wikis/Gecko e os coloque na pasta *~/.cache/wine.*
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123c89b4-01ce-4ffd-b8c8-8ab3d2895211" />
 
