@@ -5,3 +5,13 @@ Recentemente migrei do windows para o linux, gostei bastante do sistema operacio
 # Como funciona
 
 Usaremos o WineHq para rodar o office no linux, porém por padrão o Wine vem na versão 64 bits para instalar o Office teremos que aplicar uma via de configurações que deixem ele 32 Bits, pois o wine simula pastas do windows e como o Office geralmente e baixado na pasta (Program Files (x86)) se tentarmos instalar com o WineHq em 64 bits não vamos conseguir baixar.
+
+# WINEHQ
+
+Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que nem eu e bem simples basta inserir os comandos.
+
+sudo mkdir -pm755 /etc/apt/keyrings
+
+- Esse comando cria o diretório /etc/apt/keyrings com permissões adequadas para armazenar chaves de repositórios APT. Isso é frequentemente usado para configurar repositórios de pacotes externos e garantir a segurança ao verificar a autenticidade das chaves.
+
+wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -
