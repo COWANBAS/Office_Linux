@@ -14,10 +14,15 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 - *wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -*
 - *sudo apt install --install-recommends winehq-stable*
 
-Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos ativar o suporte 32 bits para o wine digitando o comando
+Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos ativar o suporte 32 bits para o wine digitando o comando.
 
 - *sudo dpkg --add-architecture i386*
 
-Depois de rodar esse comando instalaremos o Winetricks para rodar a instalação dos pacotes necessarios para o Office 
+Depois de rodar esse comando instalaremos o Winetricks para rodar a instalação dos pacotes necessarios para o Office.
 
 - *sudo apt install winetricks*
+
+Apos baixar vamos configurar o prefix do wine 32 bits no linux para isso instale os arquivos msi da Gecko nesse link: https://gitlab.winehq.org/wine/wine/-/wikis/Gecko e os coloque na pasta ~/.cache/wine.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123c89b4-01ce-4ffd-b8c8-8ab3d2895211" />
+
