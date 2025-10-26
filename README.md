@@ -57,3 +57,9 @@ Instale todas as depedencias necessarias:
   - *wine32 winecfg*
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad6b4bf2-880c-4ede-87df-7bc7b76b98c0" />
+
+Apos isso tudo rode o instalador do Office com o comando:
+
+- *WINEPREFIX=~/.wine32 wine /caminho/para/o/instalador_do_office.exe*
+
+Agora e so aguardar enquanto ele e instalado.
