@@ -11,5 +11,5 @@ Usaremos o WineHq para rodar o office no linux, porém por padrão o Wine vem na
 Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que nem eu e bem simples basta inserir os comandos.
 
 *sudo mkdir -pm755 /etc/apt/keyrings*
-
 *wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -*
+*sudo apt install --install-recommends winehq-stable*
