@@ -63,3 +63,6 @@ Apos isso tudo rode o instalador do Office com o comando:
 - *WINEPREFIX=~/.wine32 wine /caminho/para/o/instalador_do_office.exe*
 
 Agora e so aguardar enquanto ele e instalado.
+
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ed814e8-9025-429d-86a4-a635753dbc4a" />
+
