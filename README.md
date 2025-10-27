@@ -30,7 +30,7 @@ Apos isso crie o prefixo 32 bits do Wine com o seguinte comando:
 
 - *WINEPREFIX='~/.wine32' WINEARCH='win32' wine 'wineboot'*
 
-  Lembrando de substituir o ~/ pelo seu usuario
+obs: (Lembrando de substituir o ~/ pelo seu usuario)
 
 Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na sua pasta de usuario, abra ele e no final do arquivo coloque os  comandos:
 
