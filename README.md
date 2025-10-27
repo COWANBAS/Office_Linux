@@ -12,6 +12,7 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 
 - *sudo mkdir -pm755 /etc/apt/keyrings*
 - *sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ jammy main'*
+- *sudo apt update*
 - *sudo apt install --install-recommends winehq-stable*
 
 Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos ativar o suporte 32 bits para o wine digitando o comando:
