@@ -36,6 +36,8 @@ obs: (Lembrando de substituir o ~/ pelo seu usuario)
 
 Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na sua pasta de usuario, abra ele e no final do arquivo coloque os  comandos:
 
+- *export WINEPREFIX=~/.wine32*
+- *export WINEARCH=win32
 - *alias wine32='export WINEPREFIX=~/.wine32 && export WINEARCH=win32 && wine'*
 
 Exporte os prefixos 32 bits no terminal com:
