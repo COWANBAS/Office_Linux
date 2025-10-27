@@ -36,11 +36,13 @@ Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na 
 
 - *alias wine32="WINEPREFIX='~/.wine32'"*
 
-- *WINEARCH=win32 winecfg*
-
 Exporte os prefixos 32 bits no terminal com:
 
 - *export WINEPREFIX=~/.wine32*
+
+Para ver se funcionou rode esse comando, ele ira abrir uma janela de configurações:
+
+- *WINEARCH=win32 winecfg*
 
 Instale todas as depedencias necessarias:
 
