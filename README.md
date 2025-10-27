@@ -43,6 +43,7 @@ Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na 
 Exporte os prefixos 32 bits no terminal com:
 
 - *export WINEPREFIX=~/.wine32*
+- *wine32 wineboot*
 
 Para ver se funcionou rode esse comando, ele ira abrir uma janela de configurações:
 
