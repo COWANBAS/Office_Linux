@@ -54,13 +54,13 @@ Instale todas as depedencias necessarias:
 - *winetricks msxml6*
 - *winetricks usp10*
 
-  Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instaladas rodando o comando:
-  
-  - *wine32 winecfg*
+Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instaladas rodando o comando:
+
+- *wine32 winecfg*
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad6b4bf2-880c-4ede-87df-7bc7b76b98c0" />
 
-Apos isso tudo rode o instalador do Office com o comando:
+Rode o instalador do Office com o comando:
 
 - *WINEPREFIX=~/.wine32 wine /caminho/para/o/instalador_do_office.exe*
 
