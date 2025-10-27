@@ -18,7 +18,7 @@ Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente v
 
 - *sudo dpkg --add-architecture i386*
 
-Depois de rodar esse comando instalaremos o Winetricks para rodar a instalação dos pacotes necessarios para o Office:
+Depois de rodar esse comando instalaremos o Winetricks para a instalação dos pacotes necessarios para o Office:
 
 - *sudo apt install winetricks*
 
