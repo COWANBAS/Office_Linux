@@ -26,7 +26,7 @@ Apos baixar vamos configurar o prefix do wine 32 bits no linux para isso instale
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123c89b4-01ce-4ffd-b8c8-8ab3d2895211" />
 
-Depois disso coloque no terminal o seguinte comando para criar o prefixo 32 bits do wine:
+Apos isso crie o prefixo 32 bits do Wine com o seguinte comando:
 
 - *WINEPREFIX='~/.wine32' WINEARCH='win32' wine 'wineboot'*
 
