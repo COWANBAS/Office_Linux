@@ -18,37 +18,7 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 
 Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos instalar o "WineTrickss"
 
-- *sudo apt install winetricks -y*
-
-Depois de rodar esse comando instalaremos o Winetricks para a instalação dos pacotes necessarios para o Office:
-
 - *sudo apt install winetricks*
-
-Apos baixar vamos configurar o prefix do wine 32 bits no linux para isso instale os arquivos *.msi* da Gecko nesse link: https://gitlab.winehq.org/wine/wine/-/wikis/Gecko e os coloque na pasta *~/.cache/wine.*
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/123c89b4-01ce-4ffd-b8c8-8ab3d2895211" />
-
-Apos isso crie o prefixo 32 bits do Wine com o seguinte comando:
-
-- *WINEPREFIX='~/.wine32' WINEARCH='win32' wine 'wineboot'*
-
-obs: (Lembrando de substituir o ~/ pelo seu usuario)
-
-Navegue ate a pasta */etc/skel/* e ache o arquivo *.bashrc* copie ele e cole na sua pasta de usuario, abra ele e no final do arquivo coloque os  comandos:
-
-- *export WINEPREFIX=~/.wine32*
-- *export WINEARCH=win32
-- *alias wine32='export WINEPREFIX=~/.wine32 && export WINEARCH=win32 && wine'*
-
-Exporte os prefixos 32 bits no terminal com:
-
-- *export WINEPREFIX=~/.wine32*
-- *export WINEARCH=win32*
-- *wine32 wineboot*
-
-Para ver se funcionou rode esse comando, ele ira abrir uma janela de configurações:
-
-- *WINEARCH=win32 winecfg*
 
 Instale todas as depedencias necessarias:
 
@@ -68,9 +38,8 @@ Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instal
 
 Rode o instalador do Office com o comando:
 
-- *WINEPREFIX=~/.wine32 wine /caminho/para/o/instalador_do_office.exe*
+- *wine (nome do executavel.exe)
 
 Agora e so aguardar enquanto ele e instalado.
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7ed814e8-9025-429d-86a4-a635753dbc4a" />
 
