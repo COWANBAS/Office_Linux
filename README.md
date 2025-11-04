@@ -32,7 +32,7 @@ Instale todas as depedencias necessarias:
 
 Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instaladas rodando o comando:
 
-- *wine32 winecfg*
+- *winecfg*
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad6b4bf2-880c-4ede-87df-7bc7b76b98c0" />
 
