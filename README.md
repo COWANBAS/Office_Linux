@@ -16,9 +16,9 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 - *sudo apt update*
 - *sudo apt install --install-recommends winehq-stable*
 
-Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos ativar o suporte 32 bits para o wine digitando o comando:
+Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos instalar o "WineTrickss"
 
-- *sudo dpkg --add-architecture i386*
+- *sudo apt install winetricks -y*
 
 Depois de rodar esse comando instalaremos o Winetricks para a instalação dos pacotes necessarios para o Office:
 
