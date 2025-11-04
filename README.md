@@ -30,7 +30,7 @@ Instale todas as depedencias necessarias:
 - *winetricks msxml6*
 - *winetricks usp10*
 
-Apos isso confira se as bibliotecas *Msxml6*, *Riched20* e *Usp10* estão instaladas rodando o comando:
+Apos isso confira se as bibliotecas estão instaladas rodando o comando:
 
 - *winecfg*
 
