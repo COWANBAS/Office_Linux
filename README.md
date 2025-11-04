@@ -4,7 +4,7 @@ Recentemente migrei do windows para o linux, gostei bastante do sistema operacio
 
 # Como funciona
 
-Usaremos o WineHq para rodar o office no linux, porém por padrão o Wine vem na versão 64 bits para instalar o Office teremos que aplicar uma via de configurações que deixem ele 32 Bits, pois o wine simula pastas do windows e como o Office geralmente e baixado na pasta (Program Files (x86)) se tentarmos instalar com o WineHq em 64 bits não vamos conseguir baixar.
+Usaremos o WineHq para rodar o office no linux, o wine busca as apis que o aplicativo precisa no windows na sua distro linux fazendo assim com que seja totalmente possivel rodar aplicativos .exe no linux.
 
 # WINEHQ
 
