@@ -34,7 +34,7 @@ Apos isso confira se as bibliotecas estão instaladas rodando o comando:
 
 - *winecfg*
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ad6b4bf2-880c-4ede-87df-7bc7b76b98c0" />
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a039c23-e235-4217-973b-1c1dfe0a1ea7" />
 
 Rode o instalador do Office com o comando:
 
