@@ -38,7 +38,7 @@ Apos isso confira se as bibliotecas estão instaladas rodando o comando:
 
 Rode o instalador do Office com o comando:
 
-- *wine (nome do executavel.exe)
+- *wine (nome do executavel.exe)*
 
 Agora e so aguardar enquanto ele e instalado.
 
