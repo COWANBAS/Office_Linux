@@ -4,7 +4,7 @@ Recentemente migrei do windows para o linux, gostei bastante do sistema operacio
 
 # Como funciona
 
-Usaremos o WineHq para rodar o office no linux, o wine busca as apis que o aplicativo precisa no windows na sua distro linux fazendo assim com que seja totalmente possivel rodar aplicativos .exe no linux.
+Usaremos o WineHq para rodar o office no linux, o wine busca as apis que o aplicativo precisa do windows na sua distro linux fazendo assim com que seja totalmente possivel rodar aplicativos .exe no linux.
 
 # WINEHQ
 
