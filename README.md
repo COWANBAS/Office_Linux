@@ -42,4 +42,5 @@ Agora e so aguardar enquanto ele e instalado.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a4e8955-31d0-4484-a093-68d3cf715bdc" />
 
+
 Para quem estiver tendo problemas com fontes e gráficos recomendo instalar as depedencias do Netframework e VCRedist: https://github.com/COWANBAS/VCRedist_Linux
