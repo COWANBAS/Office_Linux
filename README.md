@@ -14,7 +14,7 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 - *sudo apt update*
 - *sudo apt install --install-recommends winehq-stable*
 
-Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos instalar o "WineTrickss"
+Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos instalar o "WineTricks"
 
 - *sudo apt install winetricks*
 
