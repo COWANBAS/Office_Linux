@@ -10,9 +10,14 @@ Usaremos o WineHq para rodar o office no linux, o wine busca as apis que o aplic
 
 Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que nem a minha e bem simples basta inserir os comandos:
 
-- *sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ jammy main'*
-- *sudo apt update*
-- *sudo apt install --install-recommends winehq-stable*
+*sudo mkdir -pm755 /etc/apt/keyrings
+wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -*
+
+*sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/questing/winehq-questing.sources*
+
+*sudo apt update*
+
+*sudo apt install --install-recommends winehq-stable*
 
 Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela como se fossem as configurações do sistema operacional windows.
 
@@ -21,17 +26,19 @@ Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela c
 Navegue ate a aba "Bibliotecas" e instale as seguintes bibliotecas:
 <br><br>
 
-- *msxml3*
-- *riched20*
-- *riched32*
-- *rpxrt4*
+*msxml3*
+*riched20*
+*riched32*
+*rpxrt4*
 
 
 Rode o instalador do Office com o comando:
 
-- *wine (nome do executavel.exe)*
+*wine (nome do executavel.exe)*
 
 Agora e so aguardar enquanto ele ser instalado.
 
+Para quem estiver tendo problemas com fontes recomendo que instale as fontes oficiais da microsoft executando os seguintes comandos:
 
-Para quem estiver tendo problemas com fontes e gráficos recomendo instalar as depedencias do Netframework e VCRedist: https://github.com/COWANBAS/VCRedist_Linux
+*sudo apt update*
+*sudo apt install ttf-mscorefonts-installer*
