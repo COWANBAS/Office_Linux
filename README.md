@@ -30,16 +30,13 @@ Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela c
 <br><br>
 Navegue ate a aba "Bibliotecas" e instale as seguintes bibliotecas:
 <br><br>
-*msxml3*
+msxml3
 &nbsp;
+riched20
 &nbsp;
-*riched20*
+riched32
 &nbsp;
-&nbsp;
-*riched32*
-&nbsp;
-&nbsp;
-*rpxrt4*
+rpxrt4
 
 Rode o instalador do Office com o comando:
 
