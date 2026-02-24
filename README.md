@@ -37,12 +37,8 @@ riched20
 riched32
 &nbsp;
 rpxrt4
-
-Rode o instalador do Office com o comando:
-
-*wine (nome do executavel.exe)*
-
-Agora e so aguardar enquanto ele ser instalado.
+<br><br>
+Rode o instalador do Office e aguardeenquanto ele ser instalado.
 
 Para quem estiver tendo problemas com fontes recomendo que instale as fontes oficiais da microsoft executando os seguintes comandos:
 ```bash
