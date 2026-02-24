@@ -14,12 +14,18 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 sudo mkdir -pm755 /etc/apt/keyrings
 wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -
 ```
+<br><br>
+
 ```bash
 sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/questing/winehq-questing.sources
 ```
+<br><br>
+
 ```bash
 sudo apt update
 ```
+<br><br>
+
 ```bash
 sudo apt install --install-recommends winehq-stable
 ```
