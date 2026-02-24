@@ -39,9 +39,7 @@ riched32
 rpxrt4
 <br><br>
 Rode o instalador do Office e aguardeenquanto ele ser instalado, para quem estiver tendo problemas com fontes recomendo que instale as fontes oficiais da microsoft executando os seguintes comandos:
-
-
-
+<br><br>
 ```bash
 sudo apt update
 ```
