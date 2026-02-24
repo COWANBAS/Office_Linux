@@ -20,7 +20,7 @@ sudo apt update
 sudo apt install --install-recommends winehq-stable
 ```
 
-Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela como se fossem as configurações do sistema operacional windows.
+Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela como se fosse as configurações do sistema operacional windows.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91e430ab-2eca-440d-8913-52c4462cf40e" />
 <br><br>
