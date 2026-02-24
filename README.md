@@ -31,7 +31,6 @@ Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela c
 Navegue ate a aba "Bibliotecas" e instale as seguintes bibliotecas:
 
 *msxml3*
-<br><br>
 *riched20*
 *riched32*
 *rpxrt4*
