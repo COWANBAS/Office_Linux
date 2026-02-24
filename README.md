@@ -18,6 +18,7 @@ Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela c
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91e430ab-2eca-440d-8913-52c4462cf40e" />
 
+
 Navegue ate a aba "Bibliotecas" e instale as seguintes bibliotecas:
 
 - *msxml3*
