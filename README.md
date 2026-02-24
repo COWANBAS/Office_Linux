@@ -14,12 +14,15 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 sudo mkdir -pm755 /etc/apt/keyrings
 wget -O - https://dl.winehq.org/wine-builds/winehq.key | sudo gpg --dearmor -o /etc/apt/keyrings/winehq-archive.key -
 ```
-
-*sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/questing/winehq-questing.sources*
-
-*sudo apt update*
-
-*sudo apt install --install-recommends winehq-stable*
+```bash
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/questing/winehq-questing.sources
+```
+```bash
+sudo apt update
+```
+```bash
+sudo apt install --install-recommends winehq-stable
+```
 
 Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela como se fossem as configurações do sistema operacional windows.
 
@@ -41,6 +44,9 @@ Rode o instalador do Office com o comando:
 Agora e so aguardar enquanto ele ser instalado.
 
 Para quem estiver tendo problemas com fontes recomendo que instale as fontes oficiais da microsoft executando os seguintes comandos:
-
-*sudo apt update*
-*sudo apt install ttf-mscorefonts-installer*
+```bash
+sudo apt update
+```
+```bash
+sudo apt install ttf-mscorefonts-installer
+```
