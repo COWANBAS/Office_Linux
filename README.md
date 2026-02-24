@@ -1,6 +1,6 @@
 # INSTALAÇÃO
 
-Recentemente migrei do windows para o linux, gostei bastante do sistema operacional novo porém estava faltando so uma coisa para ficar perfeito o MS Office, tenho varias planilhas e ficar sem mexer no Excel interfere meu trabalho passei horas pesquisando na internet e em forums como instalar no Linux depois de horas de pesquisa consegui finalmente rodar no linux via wine e quero compartilhar como instalar da forma mais filtrada possivel.
+Recentemente migrei do windows para o linux, gostei bastante do sistema operacional novo porém estava faltando so uma coisa para ficar perfeito o MS Office, tenho varias planilhas e ficar sem mexer no Excel interfere meu trabalho passei um tempo pesquisando na internet e em forums como instalar no Linux depois de algums minutos de pesquisa consegui finalmente rodar o office no linux via wine e quero compartilhar como instalar da forma mais filtrada possivel.
 
 # Como funciona
 
