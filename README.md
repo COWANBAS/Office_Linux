@@ -14,33 +14,23 @@ Primeiramente vamos baixar o WineHq, se estiver usando uma distro unbunto que ne
 - *sudo apt update*
 - *sudo apt install --install-recommends winehq-stable*
 
-Apos instalar o Wine devemos instalar as depedencias necessaria, primeiramente vamos instalar o "WineTricks"
+Apos instalar o Wine acesse o terminal e digite "winecfg" vai abrir uma janela como se fossem as configurações do sistema operacional windows.
 
-- *sudo apt install winetricks*
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/91e430ab-2eca-440d-8913-52c4462cf40e" />
 
-Instale todas as depedencias necessarias:
+Navegue ate a aba "Bibliotecas" e instale as seguintes bibliotecas:
 
-- *winetricks vcrun2015*
-- *winetricks corefonts*
-- *winetricks dotnet48*
-- *winetricks mfc42*
-- *winetricks riched20*
-- *winetricks msxml6*
-- *winetricks usp10*
+- *msxml3*
+- *riched20*
+- *riched32*
+- *rpxrt4*
 
-Apos isso confira se as bibliotecas estão instaladas rodando o comando:
-
-- *winecfg*
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4a039c23-e235-4217-973b-1c1dfe0a1ea7" />
 
 Rode o instalador do Office com o comando:
 
 - *wine (nome do executavel.exe)*
 
-Agora e so aguardar enquanto ele e instalado.
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/6a4e8955-31d0-4484-a093-68d3cf715bdc" />
+Agora e so aguardar enquanto ele ser instalado.
 
 
 Para quem estiver tendo problemas com fontes e gráficos recomendo instalar as depedencias do Netframework e VCRedist: https://github.com/COWANBAS/VCRedist_Linux
