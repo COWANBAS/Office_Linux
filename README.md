@@ -38,6 +38,8 @@ rpxrt4
 gdiplus
 &nbsp;
 msxml6
+&nbsp;
+usp10
 <br><br>
 Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
 <br><br>
