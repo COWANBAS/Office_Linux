@@ -27,6 +27,13 @@ Apos instalar o Wine acesse o terminal e digite (winecfg) vai abrir uma janela c
 <br><br>
 Navegue até a aba (Bibliotecas) e instale as seguintes bibliotecas:
 <br><br>
+
+vcrun2005
+&nbsp;
+vcrun2008
+&nbsp;
+vcrun2010
+&nbsp;
 msxml3
 &nbsp;
 riched20
@@ -38,12 +45,6 @@ gdiplus
 msxml6
 &nbsp;
 usp10
-&nbsp;
-vcrun2005
-&nbsp;
-vcrun2008
-&nbsp;
-vcrun2010
 &nbsp;
 ole32
 oleaut32
