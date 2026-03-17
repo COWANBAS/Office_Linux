@@ -19,7 +19,6 @@ sudo apt update
 ```bash
 sudo apt install --install-recommends winehq-stable
 ```
-# WINETRICKS
 Apos instalar o Wine acesse o terminal e digite (winecfg) vai abrir uma janela como se fosse as configurações do sistema windows.
 
 <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/c4dac923-fc75-44fd-9f9d-65b656e922a4" />
@@ -64,3 +63,4 @@ sudo apt update
 ```bash
 sudo apt install ttf-mscorefonts-installer
 ```
+# WINETRICKS
