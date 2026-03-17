@@ -33,8 +33,6 @@ riched20
 &nbsp;
 riched32
 &nbsp;
-rpxrt4
-&nbsp;
 gdiplus
 &nbsp;
 msxml6
@@ -42,6 +40,12 @@ msxml6
 usp10
 &nbsp;
 vcruntime140
+&nbsp;
+vcrun2005
+&nbsp;
+vcrun2008
+&nbsp;
+vcrun2010
 &nbsp;
 msvcr80
 &nbsp;
