@@ -41,16 +41,6 @@ oleaut32
 oleacc
 atmlib
 ```
-
-Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
-<br><br>
-
-```bash
-sudo apt update
-```
-```bash
-sudo apt install ttf-mscorefonts-installer
-```
 # WINETRICKS
 Instale o Winetricks. para baixar mais algumas dependências e garantir a total funcionalidade do Excel.
 
@@ -67,4 +57,13 @@ winetricks dotnet20
 winetricks dotnet30
 winetricks dotnet35
 winetricks dotnet40
+```
+Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
+<br><br>
+
+```bash
+sudo apt update
+```
+```bash
+sudo apt install ttf-mscorefonts-installer
 ```
