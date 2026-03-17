@@ -1,6 +1,6 @@
 # DISCLAIMER
 Recentemente migrei do windows para o linux, gostei bastante do sistema operacional novo porém estava faltando so uma coisa para ficar perfeito o MS Office, tenho varias planilhas e ficar sem mexer no Excel interfere meu trabalho passei um tempo pesquisando na internet e em forums como instalar no Linux depois de algums minutos de pesquisa consegui finalmente rodar o office no linux via wine e quero compartilhar como instalar da forma mais simples e filtrada possivel,usaremos o Wine para rodar o office no linux, o wine busca as apis que o aplicativo precisa do windows na sua distro linux fazendo assim com que seja totalmente possivel rodar aplicativos .exe no linux.
-# INSTALAÇÃO
+# WINE
 Primeiramente vamos baixar o Wine rodando os comandos a seguir, vou fazer o tutorial de instalação com base na minha distro que e o ubuntu.
 
 ```bash
@@ -41,6 +41,9 @@ msxml6
 &nbsp;
 usp10
 <br><br>
+# WINETRICKS
+
+
 Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
 <br><br>
 
