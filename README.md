@@ -39,17 +39,11 @@ msxml6
 &nbsp;
 usp10
 &nbsp;
-vcruntime140
-&nbsp;
 vcrun2005
 &nbsp;
 vcrun2008
 &nbsp;
 vcrun2010
-&nbsp;
-msvcr80
-&nbsp;
-msvcr90
 &nbsp;
 ole32
 oleaut32
