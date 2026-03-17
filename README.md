@@ -36,13 +36,13 @@ vcrun2010
 &nbsp;
 msxml3
 &nbsp;
+msxml6
+&nbsp;
 riched20
 &nbsp;
 riched32
 &nbsp;
 gdiplus
-&nbsp;
-msxml6
 &nbsp;
 usp10
 &nbsp;
