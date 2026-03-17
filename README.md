@@ -64,3 +64,17 @@ sudo apt update
 sudo apt install ttf-mscorefonts-installer
 ```
 # WINETRICKS
+
+winetricks dotnet20
+winetricks dotnet30
+winetricks dotnet35
+winetricks dotnet40
+
+winetricks vcrun6 
+winetricks vcrun2005
+winetricks vcrun2008
+
+winetricks corefonts
+winetricks riched20
+winetricks riched30
+winetricks msxml6
