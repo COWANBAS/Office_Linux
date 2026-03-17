@@ -52,7 +52,6 @@ msvcr80
 msvcr90
 &nbsp;
 ole32
-&nbsp;
 oleaut32
 &nbsp;
 oleacc
