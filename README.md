@@ -47,6 +47,7 @@ gdiplus
 usp10
 &nbsp;
 ole32
+&nbsp;
 oleaut32
 &nbsp;
 oleacc
