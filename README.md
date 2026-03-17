@@ -51,8 +51,11 @@ Agora baixe mais algumas dependências e garantir a total funcionalidade do Exce
 
 ```bash
 winetricks corefonts
-winetricks vcrun2005 vcrun2008
-winetricks riched20 riched30 msxml6
+winetricks vcrun2005
+winetricks vcrun2008
+winetricks riched20
+winetricks riched30
+winetricks msxml6
 winetricks dotnet20
 winetricks dotnet30
 winetricks dotnet35
