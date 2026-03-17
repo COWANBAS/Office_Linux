@@ -27,31 +27,18 @@ Navegue até a aba (Bibliotecas) e instale as seguintes bibliotecas:
 <br><br>
 
 vcrun2005
-&nbsp;
 vcrun2008
-&nbsp;
 vcrun2010
-&nbsp;
 msxml3
-&nbsp;
 msxml6
-&nbsp;
 riched20
-&nbsp;
 riched32
-&nbsp;
 gdiplus
-&nbsp;
 usp10
-&nbsp;
 ole32
-&nbsp;
 oleaut32
-&nbsp;
 oleacc
-&nbsp;
 atmlib
-&nbsp;
 
 Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
 <br><br>
