@@ -25,7 +25,7 @@ Apos instalar o Wine acesse o terminal e digite (winecfg) vai abrir uma janela c
 <br><br>
 Navegue até a aba (Bibliotecas) e instale as seguintes bibliotecas:
 <br><br>
-
+```bash
 vcrun2005
 vcrun2008
 vcrun2010
@@ -39,6 +39,7 @@ ole32
 oleaut32
 oleacc
 atmlib
+```
 
 Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
 <br><br>
