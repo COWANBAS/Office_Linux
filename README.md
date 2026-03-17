@@ -64,12 +64,12 @@ sudo apt update
 sudo apt install ttf-mscorefonts-installer
 ```
 # WINETRICKS
-Instale o Winetricks. para baixar mais algumas dependências e garantir a total funcionalidade do Excel
+Instale o Winetricks. para baixar mais algumas dependências e garantir a total funcionalidade do Excel.
 
 ```bash
 sudo apt install winetricks
 ```
-Agora baixe mais algumas dependências e garantir a total funcionalidade do Excel
+Agora baixe mais algumas dependências e garantir a total funcionalidade do Excel.
 
 ```bash
 winetricks corefonts
