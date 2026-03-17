@@ -25,6 +25,7 @@ Apos instalar o Wine acesse o terminal e digite (winecfg) vai abrir uma janela c
 <br><br>
 Navegue até a aba (Bibliotecas) e instale as seguintes bibliotecas:
 <br><br>
+
 ```bash
 vcrun2005
 vcrun2008
