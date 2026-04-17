@@ -61,7 +61,7 @@ winetricks dotnet30
 winetricks dotnet35
 winetricks dotnet40
 ```
-Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft executando o comando abaixo.
+Rode o instalador do Office via wine e o instale normalmente, para quem estiver tendo problemas com fontes apos instalar recomendo que instale as fontes oficiais da Microsoft e depois configure elas executando os comandos abaixo.
 <br><br>
 
 ```bash
