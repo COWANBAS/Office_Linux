@@ -70,3 +70,6 @@ sudo apt update
 ```bash
 sudo apt install ttf-mscorefonts-installer
 ```
+```bash
+winetricks settings fontsmooth=rgb
+```
